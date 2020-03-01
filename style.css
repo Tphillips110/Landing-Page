@@ -1,21 +1,39 @@
 h1{
-    background-color: #e22b2b;
+    display: inline;
     color: #eaeaea;
-    padding: 30px 30px 30px 70px;
-    margin: 0
+    font-family: roboto;
 }
-html{
-    background-color: #eaeaea;
+html, body{
+    background-color: white;
     margin: 0;
     padding: 0;
-}
-
-h2{
-    color: #eaeaea;
-    display: inline-block;
-}
-img{
-    width: 20%;
-    height: auto;
     box-sizing: border-box;
+    width: 100%;
+    height: auto;
+}
+main{
+    width: 100%;
+}
+.img{
+    width: 35%;
+    height: auto;
+    margin-top: 100px;
+    margin-left: 0px;
+    padding: 0;
+
+}
+h3{
+    font-family: roboto;
+    color:  #e22b2b;
+    margin: 0px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.topbar{
+    float: inline-start;
+    width: 100%;
+    background-color:  #e22b2b;
+}
+.toplinks{
+    color: blue;
 }
