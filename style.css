@@ -4,13 +4,9 @@
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: ". . ." ". . ." ". . .";
   }
-h1{
-    font-family: roboto;
-    margin: 0;
-    padding: 30px 30px 30px 30px;
-    float: left;
-    color: #eaeaea;
-    background-color:  #e22b2b;
+main{
+    grid-column-start: 1;
+    grid-column-end: 4;
 }
 html, body{
     background-color: white;
@@ -20,24 +16,66 @@ html, body{
 * {
     box-sizing: border-box;
 }
+h2{
+    color: white;
+    background: red;
+    display: inline;
+}
 .img{
     width: 35%;
     height: auto;
-    margin-top: 100px;
-    margin-left: 0px;
-    padding: 0;
 }
-h3{
-    font-family: roboto;
-    color:  #e22b2b;
-    margin: 0px;
-    padding-left: 20px;
-    padding-top: 20px;
-
+aside{
+    float: right;
 }
-h2 {
+.title{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate (-50%, -50%);
+}
+.signup{
+    position: relative;
+    text-align: center;
+    color: #ef8f30;
+}
+label, input, button{
+    display: block;
+    text-align: center;
+}
+.player{
+    margin-left: 50px;
+    padding: 30px 50px 30px 50px;
+    border-radius: 12px;
+    background-color: #e22b2b;
+    color: white;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
     font-family: roboto;
-    background-color:  #e22b2b;
-    margin-left: 20px;
-    margin-top
+    font-size: 50px;
+}
+.playersport{
+    margin-left: 50px;
+    padding: 30px 50px 30px 50px;
+    border-radius: 12px;
+    background-color: #3d9b3d;
+    color: white;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    font-family: roboto;
+    font-size: 50px;
+}
+.playerboard{
+    margin-left: 50px;
+    padding: 30px 50px 30px 50px;
+    border-radius: 12px;
+    background-color: #1651d6;
+    color: white;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    font-family: roboto;
+    font-size: 50px;
 }
