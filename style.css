@@ -1,18 +1,24 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1.2fr 0.9fr 0.9fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: ". . ." ". . ." ". . .";
+  }
 h1{
-    display: inline;
-    color: #eaeaea;
     font-family: roboto;
+    margin: 0;
+    padding: 30px 30px 30px 30px;
+    float: left;
+    color: #eaeaea;
+    background-color:  #e22b2b;
 }
 html, body{
     background-color: white;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    width: 100%;
-    height: auto;
 }
-main{
-    width: 100%;
+* {
+    box-sizing: border-box;
 }
 .img{
     width: 35%;
@@ -20,7 +26,6 @@ main{
     margin-top: 100px;
     margin-left: 0px;
     padding: 0;
-
 }
 h3{
     font-family: roboto;
@@ -28,12 +33,11 @@ h3{
     margin: 0px;
     padding-left: 20px;
     padding-top: 20px;
+
 }
-.topbar{
-    float: inline-start;
-    width: 100%;
+h2 {
+    font-family: roboto;
     background-color:  #e22b2b;
-}
-.toplinks{
-    color: blue;
+    margin-left: 20px;
+    margin-top
 }
