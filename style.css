@@ -1,3 +1,21 @@
 h1{
-    color: orange;
+    background-color: #e22b2b;
+    color: #eaeaea;
+    padding: 30px 30px 30px 70px;
+    margin: 0
+}
+html{
+    background-color: #eaeaea;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    color: #eaeaea;
+    display: inline-block;
+}
+img{
+    width: 20%;
+    height: auto;
+    box-sizing: border-box;
 }
