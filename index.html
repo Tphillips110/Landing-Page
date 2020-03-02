@@ -4,23 +4,33 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="wrapper">
-        <header>
-            <h1 class="plyr">Player</h1>
-            <div class="mini">
-            <h1>Home</h1>
-            <h1>About Us</h1>
-            <h1>Catagories</h1>
-            <h1>Contact</h1>
-            </div>
-        </header>
-        <main>
-            <img class="gmr" src="images/gamer.jpg" alt="gamers playing on a computer">
-            <h3>What's Player?</h3>
-            <p class="para">Player is an app that allows users to connect to each other through similar interests/things to play. There are three catagories you can enter:Player, which is the main catagory for online connecting, for things like PS4, Xbox, PC, and Nintendo Switch. PlayerSport, which is for finding teammates or partners for physical sports, whether you need a team or just a single partner, PlayerSport has got you covered! And finally, PlayerBoard, which is for finding other players for Board games and tabletop RPGs! We want to encorporate many different types of people and hobbies, so that way we can all connect, and PLAY! </p>   
-            <aside>
-                <img src="images/signup.png" class="flag" alt="signup flag">
-            </aside>    
-        </main>
-    </div>
-</html>
+    <div class="navbar">
+        <a href="#home"><strong>Player</strong></a>
+        <a href="About">About us</a>
+        <a href="#categories">Categories</a>
+        <a href="#contact">Contact</a>
+      </div>
+      
+      <div class="grid-container">
+        <div class="item1">
+            <img src="images/gamer.jpg" class="photo"> 
+        </div>
+        <div class="item2">
+            <h2>What's Player?</h2>
+            <p>Player is an app that allows users to connect to each other through similar interests/things to play. There are three catagories you can enter:Player, which is the main catagory for online connecting, for things like PS4, Xbox, PC, and Nintendo Switch. PlayerSport, which is for finding teammates or partners for physical sports, whether you need a team or just a single partner, PlayerSport has got you covered! And finally, PlayerBoard, which is for finding other players for Board games and tabletop RPGs! We want to encorporate many different types of people and hobbies, so that way we can all connect, and PLAY! </p></div>
+    
+
+      </main>
+      <aside><div class="signup"><img src="images/signup.png"></div></aside> </div>
+      <form class="form-contract">
+          <label for="Full-name">Full name</label>
+          <input type="text" id="Full-name">
+          <label for="phone">Phone Number</label>
+          <input type="text" id="phone">
+          <label for="Address">Address</label>
+          <input type="Address" id="Address">
+          <label for="Email">Email Address</label>
+          <input type="email" id="email">
+          <button type="submit">Submit</button>
+      </form>
+</body>
