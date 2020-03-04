@@ -51,9 +51,7 @@ html, body {
   }
   .item2{
       text-align: left;
-      grid-column-start: 1;
-      grid-column-end: 1;
-      grid-row-start: 2;
+      grid-area: c;
       font-family: Helvetica,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin-left: 15px;
   }
@@ -68,20 +66,20 @@ html, body {
       font-size: 200%;
   }
 .signup{
-    margin-top: 100px;
+    margin-top: 45px;
     background-image: url("images/signup.png");
     min-height: 645px;
     background-position: right;
     background-repeat: no-repeat;
     position: relative;
-    background-size: cover;
+    background-size: contain;
 }
 .form-contract{
     font-family: Helvetica, Verdana, sans-serif;
     color: gold;
     font-size: 15px;
     display: block;
-    margin-left: 15px;
+    margin-left: 30px;
     text-align: center;
 }
 input{
@@ -95,9 +93,8 @@ input{
     background-color: lightgrey;
 }
 label{
-    display: block;
-   text-align: center;
-    
+  display: block;
+    text-align: center;
 }
 .firstname{
   padding-top: 280px;
@@ -145,4 +142,7 @@ label{
   border: none;
   background-color: gold;
   vertical-align: middle;
+}
+footer{
+  text-align: center;
 }
