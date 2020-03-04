@@ -19,13 +19,13 @@ html, body {
     position: fixed;
     top: 0;
     width: 100%;
-    font-family: roboto;
+    font-family: helvetica, sans-serif;
     font-size: larger;
   }
   .navbar a {
     float: left;
     display: block;
-    color: #eaeaea;
+    color: white;
     text-align: center;
     padding: 25px 40px;
     text-decoration: none;
@@ -90,7 +90,7 @@ input{
     border-radius: 10px;
     border: none;
     width: 125px;
-    background-color: lightgrey;
+    background-color: white;
 }
 label{
   display: block;
@@ -100,11 +100,11 @@ label{
   padding-top: 280px;
 }
 .plyrbutton{
-  width: 25%;
+  width: 40%;
   padding-top: 25px;
   padding-bottom: 25px;
   border-radius: 12px;
-  background-color: red;
+  background-color: #e22b2b;
   color: white;
   font-family: Helvetica,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   border: none;
@@ -112,7 +112,7 @@ label{
   font-size: 15px;
 }
 .PlyrSport{
-  width: 25%;
+  width: 40%;
   padding-top: 25px;
   padding-bottom: 25px;
   border-radius: 12px;
@@ -124,7 +124,7 @@ label{
   font-size: 15px;
 }
 .PlyrBoard{
-  width: 25%;
+  width: 40%;
   padding-top: 25px;
   padding-bottom: 25px;
   border-radius: 12px;
