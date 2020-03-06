@@ -36,9 +36,9 @@ html, body {
     color: lightgrey;
   }
   .item1 {
-  width: 100%;
-    margin-top: 80px;
-    grid-area: a;
+  width: 75%;
+  margin-top: 80px;
+  grid-area: a;
   }
   
   .grid-container {
@@ -51,12 +51,14 @@ html, body {
   }
   .item2{
       text-align: left;
-      grid-area: c;
+      width: 75%;
       font-family: Helvetica,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin-left: 15px;
+      grid-area: a;
+      margin-top: 650px;
   }
   .photo{
-      width:50%;
+      width:100%;
       margin-top: 5px;
       margin-left: 15px
   }
