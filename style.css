@@ -36,7 +36,7 @@ html, body {
     color: lightgrey;
   }
   .item1 {
-  width: 180%;
+  width: 100%;
     margin-top: 80px;
     grid-area: a;
   }
@@ -97,7 +97,7 @@ label{
     text-align: center;
 }
 .firstname{
-  padding-top: 280px;
+  padding-top: 250px;
 }
 .plyrbutton{
   width: 40%;
@@ -110,6 +110,7 @@ label{
   border: none;
   table-layout: fixed;
   font-size: 15px;
+  margin: 5px 5px 5px 5px;
 }
 .PlyrSport{
   width: 40%;
@@ -137,11 +138,15 @@ label{
 }
 .signbutton{
   padding: 6px;
-  width: 50px;
+  width: 21%px;
   border-radius: 12px;
   border: none;
   background-color: gold;
   vertical-align: middle;
+}
+.signbutton:hover{
+  color: white;
+  background-color: darkgoldenrod;
 }
 footer{
   text-align: center;
